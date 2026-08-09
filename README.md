@@ -1,0 +1,1 @@
+This repository contains the data from both protocols presented in the manuscript called: "Machine Learning-Based Decoding of Walking Motor Imagery for Lower-Limb Brain–Computer Interfaces (BCI)". Data from participants is pseudonymized and there is a python code in which the reader can follow the processing performed for the machine learning models obtention. 
