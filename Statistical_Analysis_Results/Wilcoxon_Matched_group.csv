@@ -1,0 +1,21 @@
+Metric,Method,Comparison,Test,N_Paired,Median_Protocol_I,Median_Protocol_II,W_statistic,P_value,Holm_P_value,Median_RG,Median_FBCSP
+Accuracy,RG,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.6087499999999999,0.75,18.0,0.078125,0.9375,,
+Accuracy,FBCSP,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.485,0.75,21.0,0.015625,0.3125,,
+Accuracy,FBCSP vs RG,Protocol I,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.6087499999999999,0.485
+Accuracy,FBCSP vs RG,Protocol II,Wilcoxon signed-rank,6,,,8.0,0.6875,1.0,0.75,0.75
+Kappa,RG,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.21750000000000003,0.49995,14.0,0.03980790073005672,0.5573106102207941,,
+Kappa,FBCSP,Protocol II > Protocol I,Wilcoxon signed-rank,6,-0.03,0.49950000000000006,21.0,0.015625,0.3125,,
+Kappa,FBCSP vs RG,Protocol I,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.21750000000000003,-0.03
+Kappa,FBCSP vs RG,Protocol II,Wilcoxon signed-rank,6,,,8.0,0.6875,1.0,0.49995,0.49950000000000006
+Precision,RG,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.655886764,0.8101,19.0,0.046875,0.609375,,
+Precision,FBCSP,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.477704918,0.81,20.0,0.03125,0.53125,,
+Precision,FBCSP vs RG,Protocol I,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.655886764,0.477704918
+Precision,FBCSP vs RG,Protocol II,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.8101,0.81
+Recall,RG,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.47750000000000004,0.675,20.0,0.03125,0.53125,,
+Recall,FBCSP,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.375,0.645,21.0,0.015625,0.3125,,
+Recall,FBCSP vs RG,Protocol I,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.47750000000000004,0.375
+Recall,FBCSP vs RG,Protocol II,Wilcoxon signed-rank,6,,,10.0,1.0,1.0,0.675,0.645
+Specificity,RG,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.74,0.855,16.0,0.15625,1.0,,
+Specificity,FBCSP,Protocol II > Protocol I,Wilcoxon signed-rank,6,0.645,0.82,20.0,0.03125,0.53125,,
+Specificity,FBCSP vs RG,Protocol I,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.74,0.645
+Specificity,FBCSP vs RG,Protocol II,Wilcoxon signed-rank,6,,,6.0,0.4375,1.0,0.855,0.82
